@@ -6,12 +6,11 @@ const communityPropertyTypes = [
   'Apartment'
 ];
 
-export function rentalPropertyType(type/*, hash*/) {
-  console.log(type);
-  // if ( communityPropertyTypes.includes(type)){
-  //   return 'Community';
-  // }
-  // return 'Standalone';
+export function rentalPropertyType([type]/*, hash*/) {
+  if ( communityPropertyTypes.includes(type)){
+    return 'Community';
+  }
+  return 'Standalone';
 }
 
 export default Ember.Helper.helper(rentalPropertyType);

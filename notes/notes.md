@@ -39,3 +39,4 @@ Ok wait we just made our own helper and we just called it with ```helper``` and 
 * Also: apparently when we call a helper from within a template we are implicitly calling it with an array. even if we only give one argument.
 
     * seems like we might be calling ```ourPropertyThatisActuallyAFunction.call(this, [arg1, arg2, arg3])```
+    * this is called destructuring and its from es6 apparently
