@@ -44,3 +44,9 @@ Ok wait we just made our own helper and we just called it with ```helper``` and 
 #### template context:
 
 * it seems that with the pattern of using  "closure actions." its important to understand how the "lookup chain" of a templates context works.
+
+#### Ok finished the tutorial from the docs
+
+  * from here I think the next step is get a hold of some literature on testing ember apps in q unit
+  * from there I need to come up with a quest to embark on .
+    * Perhaps an admin panel for our rental application
