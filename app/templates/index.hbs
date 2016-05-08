@@ -2,6 +2,14 @@
 
 <p>We hope you find exactly what you're looking for in a place to stay.</p>
 
+{{filter-listing filteredList=filteredList
+autoComplete=(action 'autoComplete') search=(action 'search')}}
+<!-- so what Im trying to wrap my head around here is that autoComplete is being passed to the component
+essentially we are saying, "hey you already have a propery called filteredList set to null but we are going to
+start you off with something from our own context that we are calling filteredList
+in addition you don't even have this propery autoComplete set on yourself yet but we are going to set it
+.. again with something from our own context that we are calling autoComplete."  -->
+
 {{#each model as |rentalUnit|}}
   {{rental-listing rental=rentalUnit}}
 {{/each}}

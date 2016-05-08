@@ -40,3 +40,7 @@ Ok wait we just made our own helper and we just called it with ```helper``` and 
 
     * seems like we might be calling ```ourPropertyThatisActuallyAFunction.call(this, [arg1, arg2, arg3])```
     * this is called destructuring and its from es6 apparently
+
+#### template context:
+
+* it seems that with the pattern of using  "closure actions." its important to understand how the "lookup chain" of a templates context works.
