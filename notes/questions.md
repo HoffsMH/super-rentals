@@ -1,6 +1,13 @@
 ### Pressing:
   * difference between:
     * ```{{#helper-name param1, param2}}``` and ```{{helper-name param1, param2}}```
+  * There MUST be a pecking order for where a template looks in its context for certain things.
+    * a list of things that I know are capable of inserting things into a template's  context
+      * route handlers
+      * all components
+      * controllers
+    * what order does it look at these things in?
+    * what other things can insert things into a given template's context
 
 
 ### Non Pressing:

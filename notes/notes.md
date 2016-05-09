@@ -50,3 +50,7 @@ Ok wait we just made our own helper and we just called it with ```helper``` and 
   * from here I think the next step is get a hold of some literature on testing ember apps in q unit
   * from there I need to come up with a quest to embark on .
     * Perhaps an admin panel for our rental application
+    * sub quest: create react situation where stuff is updated automatically
+
+* spread ```...``` operator es6
+* one of the bigger advantages of using ```Ember.Object``` is that is supports property value change observation.
